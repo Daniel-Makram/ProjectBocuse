@@ -1,0 +1,64 @@
+.profile__container{
+    display:flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile__card--img{
+    width: 200px;
+    height: 200px;
+}
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.wrapper ul{
+    
+    list-style: none;   
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+.wrapper ul li{
+    margin: 5%;
+    width: 80px;
+}
+.wrapper a img{
+    width: 50%;
+}
+
+.signup-form{
+    text-align: center;
+}
+.signup-form form{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0;
+}
+.signup-form form input{
+    width: 25%;
+    height: 30px;
+}
+.signup-form p{
+    color: tomato;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+      font-weight: normal;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
